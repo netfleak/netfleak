@@ -1,0 +1,18 @@
+[submodule "extensions/react"]
+	path = extensions/react
+	url = https://github.com/quagga-ext/react-extension.git
+[submodule "extensions/layout"]
+	path = extensions/layout
+	url = https://github.com/quagga-ext/layout-extension.git
+[submodule "extensions/dashboard"]
+	path = extensions/dashboard
+	url = https://github.com/quagga-ext/dashboard-extension.git
+[submodule "extensions/text-editor"]
+	path = extensions/text-editor
+	url = https://github.com/quagga-ext/text-editor-extension.git
+[submodule "extensions/file-manager"]
+	path = extensions/file-manager
+	url = https://github.com/quagga-ext/file-manager-extension.git
+[submodule "extensions/seo"]
+	path = extensions/seo
+	url = https://github.com/quagga-ext/seo-extension.git

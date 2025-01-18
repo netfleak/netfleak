@@ -1,0 +1,20 @@
+{
+    "name": "quagga/common",
+    "description": "The common extension for Quagga CMS",
+    "autoload": {
+        "psr-4": {
+            "Quagga\\Extension\\Common\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quagga",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "vendor-dir": "libs"
+    },
+    "extension-class": "\\Quagga\\Extension\\Common\\CommonExtension"
+}

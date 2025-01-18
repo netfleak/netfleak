@@ -1,0 +1,262 @@
+/*!***************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./resources/scss/common.scss ***!
+  \***************************************************************************************************************************************************************/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+
+body {
+  line-height: 1;
+}
+
+menu, ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.sakura-css {
+  /* Sakura.css v1.5.0
+   * ================
+   * Minimal css theme.
+   * Project: https://github.com/oxalorg/sakura/
+   */
+  /* Body */
+  /* Pre and Code */
+  /* Tables */
+  /* Buttons, forms and input */
+}
+.sakura-css html {
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+.sakura-css body {
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 38em;
+  margin: auto;
+  color: #4a4a4a;
+  background-color: #f9f9f9;
+  padding: 13px;
+}
+@media (max-width: 684px) {
+  .sakura-css body {
+    font-size: 1.53rem;
+  }
+}
+@media (max-width: 382px) {
+  .sakura-css body {
+    font-size: 1.35rem;
+  }
+}
+.sakura-css h1, .sakura-css h2, .sakura-css h3, .sakura-css h4, .sakura-css h5, .sakura-css h6 {
+  line-height: 1.1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+}
+.sakura-css h1 {
+  font-size: 2.35em;
+}
+.sakura-css h2 {
+  font-size: 2em;
+}
+.sakura-css h3 {
+  font-size: 1.75em;
+}
+.sakura-css h4 {
+  font-size: 1.5em;
+}
+.sakura-css h5 {
+  font-size: 1.25em;
+}
+.sakura-css h6 {
+  font-size: 1em;
+}
+.sakura-css p {
+  margin-top: 0px;
+  margin-bottom: 2.5rem;
+}
+.sakura-css small, .sakura-css sub, .sakura-css sup {
+  font-size: 75%;
+}
+.sakura-css hr {
+  border-color: #1d7484;
+}
+.sakura-css a {
+  text-decoration: none;
+  color: #1d7484;
+}
+.sakura-css a:visited {
+  color: #144f5a;
+}
+.sakura-css a:hover {
+  color: #982c61;
+  border-bottom: 2px solid #4a4a4a;
+}
+.sakura-css ul {
+  padding-left: 1.4em;
+  margin-top: 0px;
+  margin-bottom: 2.5rem;
+}
+.sakura-css li {
+  margin-bottom: 0.4em;
+}
+.sakura-css blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 1em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-right: 0.8em;
+  border-left: 5px solid #1d7484;
+  margin-bottom: 2.5rem;
+  background-color: #f1f1f1;
+}
+.sakura-css blockquote p {
+  margin-bottom: 0;
+}
+.sakura-css img, .sakura-css video {
+  height: auto;
+  max-width: 100%;
+  margin-top: 0px;
+  margin-bottom: 2.5rem;
+}
+.sakura-css pre {
+  background-color: #f1f1f1;
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+  margin-top: 0px;
+  margin-bottom: 2.5rem;
+  font-size: 0.9em;
+}
+.sakura-css code, .sakura-css kbd, .sakura-css samp {
+  font-size: 0.9em;
+  padding: 0 0.5em;
+  background-color: #f1f1f1;
+  white-space: pre-wrap;
+}
+.sakura-css pre > code {
+  padding: 0;
+  background-color: transparent;
+  white-space: pre;
+  font-size: 1em;
+}
+.sakura-css table {
+  text-align: justify;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+.sakura-css td, .sakura-css th {
+  padding: 0.5em;
+  border-bottom: 1px solid #f1f1f1;
+}
+.sakura-css input, .sakura-css textarea {
+  border: 1px solid #4a4a4a;
+}
+.sakura-css input:focus, .sakura-css textarea:focus {
+  border: 1px solid #1d7484;
+}
+.sakura-css textarea {
+  width: 100%;
+}
+.sakura-css .button, .sakura-css button, .sakura-css input[type=submit], .sakura-css input[type=reset], .sakura-css input[type=button], .sakura-css input[type=file]::file-selector-button {
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #1d7484;
+  color: #f9f9f9;
+  border-radius: 1px;
+  border: 1px solid #1d7484;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.sakura-css .button[disabled], .sakura-css button[disabled], .sakura-css input[type=submit][disabled], .sakura-css input[type=reset][disabled], .sakura-css input[type=button][disabled], .sakura-css input[type=file]::file-selector-button[disabled] {
+  cursor: default;
+  opacity: 0.5;
+}
+.sakura-css .button:hover, .sakura-css button:hover, .sakura-css input[type=submit]:hover, .sakura-css input[type=reset]:hover, .sakura-css input[type=button]:hover, .sakura-css input[type=file]::file-selector-button:hover {
+  background-color: #982c61;
+  color: #f9f9f9;
+  outline: 0;
+}
+.sakura-css .button:focus-visible, .sakura-css button:focus-visible, .sakura-css input[type=submit]:focus-visible, .sakura-css input[type=reset]:focus-visible, .sakura-css input[type=button]:focus-visible, .sakura-css input[type=file]::file-selector-button:focus-visible {
+  outline-style: solid;
+  outline-width: 2px;
+}
+.sakura-css textarea, .sakura-css select, .sakura-css input {
+  color: #4a4a4a;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+.sakura-css textarea:focus, .sakura-css select:focus, .sakura-css input:focus {
+  border: 1px solid #1d7484;
+  outline: 0;
+}
+.sakura-css input[type=checkbox]:focus {
+  outline: 1px dotted #1d7484;
+}
+.sakura-css label, .sakura-css legend, .sakura-css fieldset {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
